@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/glidejs/dist/css/glide.core.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/glidejs/dist/css/glide.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<title>Bonzai Boyz</title>
 	</head>
@@ -14,9 +17,24 @@
 		  <a class="item">Contact</a>
 		</div>
 
-		<div>
-			<h1>Insert Photos</h1>
-		</div>
+    <div id="Glide" class="glide">
+
+      <div class="glide__arrows">
+        <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+        <button class="glide__arrow next" data-glide-dir=">">next</button>
+      </div>
+
+      <div class="glide__wrapper">
+        <ul class="glide__track">
+          <li class="glide__slide"><img src="images/large_placeholder.jpg"></li>
+          <li class="glide__slide"><img src="images/large_placeholder.jpg"></li>
+          <li class="glide__slide"><img src="images/large_placeholder.jpg"></li>
+        </ul>
+      </div>
+
+      <div class="glide__bullets"></div>
+
+    </div>
 
 		<div class="ui segment about">
 			<h1 class="ui center aligned header">About</h1>
@@ -38,5 +56,8 @@
 			</div>
 		</div>
 
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/glidejs/dist/glide.js"></script>
+    <script src="js/main.js"></script>
 	</body>
 </html>
