@@ -37,9 +37,18 @@
 
 /* Footer */
 #footer {
-    margin: 0px auto;
-    padding-bottom: 60px;
-    width: 850px;
+    background-color: black;
+    border-top: 2px solid black;
+    padding: 20px;
     text-align: center;
-    padding-top: 25px;
+}
+#footer a {
+    color: gray;
+    font-size: 25px;
+}
+#footer p {
+    color: gray;
+}
+#footer i.heart {
+    color: darkred;
 }
