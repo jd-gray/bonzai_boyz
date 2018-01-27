@@ -5,3 +5,41 @@
 .glide__slide img {
     width: 100%;
 }
+
+/* Menu/Catering */
+#menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#catering {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.column {
+    text-align: center;
+}
+
+/* Contact */
+#submitButton {
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Footer */
+#footer {
+    margin: 0px auto;
+    padding-bottom: 60px;
+    width: 850px;
+    text-align: center;
+    padding-top: 25px;
+}
