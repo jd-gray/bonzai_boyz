@@ -84,41 +84,39 @@
     </div>
 
     <!-- Contact -->
-    <div name="contact">
-      <h1> Contact Us </h1>
-    </div>
+    <div id="contact" class="ui center aligned segment" name="contact">
 
-    <p> To see where we'll be located today check out our Twitter (###possibly include link). Use the contact form below for any questions or comments you have and we'll get back to you.</p>
+      <h1>Contact Us</h1>
 
-    <div class="ui stackable two column center aligned grid">
-      <div class="column">
-        <img class="ui medium left floated image" src="images/dragonandchefs.png">
+      <p>To see where we'll be located today check out our Twitter. Use the contact form below for any questions or comments you have and we'll get back to you.</p>
+
+      <div class="ui stackable two column center aligned grid">
+        <div class="column">
+          <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a>
+        </div>
+
+        <div class="column">
+          <form class="ui form" method="POST" action="https://formspree.io/cwilliams@rmn.com">
+            <div class="field">
+              <label>Name</label>
+              <input placeholder="First Name" name="name" type="text">
+            </div>
+
+            <div class="field">
+              <label>Email Address</label>
+              <input placeholder="Email Address" name="email address" type="text">
+            </div>
+
+            <div class="field">
+              <label>Questions and Comments</label>
+              <textarea placeholder="Your questions and comments here." name="questions" type="text"></textarea>
+            </div>
+
+            <input type="submit" value="Send" class="ui red button">
+          </form>
+        </div>
       </div>
-
-      <div class="column">
-        <form class="ui form segment" method="POST" action="https://formspree.io/cwilliams@rmn.com">
-          <div class="field">
-            <label>Name</label>
-            <input placeholder="First Name" name="name" type="text">
-          </div>
-
-          <div class="field">
-            <label>Email Address</label>
-            <input placeholder="Email Address" name="email address" type="text">
-          </div>
-
-          <div class="field">
-            <label>Questions and Comments</label>
-            <textarea placeholder="Your questions and comments here." name="questions" type="text"></textarea>
-          </div>
-
-          <div class="inline field">
-            <input type="submit" value="Send" id="submitButton">
-          </div>
-        </form>
-      </div>
     </div>
-
     <!-- Footer -->
     <footer class="social" id="footer">
       <a href="https://www.facebook.com/bonzaiboyz/" target="_blank"><i class="facebook icon"></i></a>
@@ -130,6 +128,7 @@
       <p>Built with <i class="heart icon"></i>in Phoenix, AZ</p>
     </footer>
 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="bower_components/glidejs/dist/glide.js"></script>
     <script src="js/main.js"></script>
