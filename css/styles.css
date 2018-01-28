@@ -1,3 +1,8 @@
+.ui.segment {
+    margin: 0;
+    padding: 20px;
+}
+
 .stackable.menu {
     margin-bottom: 0px;
 }
@@ -6,25 +11,16 @@
     width: 100%;
 }
 
-/* Menu/Catering */
-#menu {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#catering {
+/* Menu/Contact */
+#menu .price {
+    bottom: 0;
+    left: 0;
     margin: auto;
-    width: 50%;
-    text-align: center;
+    position: absolute;
+    right: 0;
 }
-
-.column {
-    text-align: center;
-}
-
-/* Contact */
-#contact {
-    margin: 0;
+#catering {
+    padding-top: 20px;
 }
 
 /* Footer */
