@@ -1,3 +1,3 @@
-$("#Glide").glide({
+$("#glide").glide({
   type: "carousel"
 });

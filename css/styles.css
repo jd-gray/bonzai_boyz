@@ -2,12 +2,28 @@
     margin: 0;
     padding: 20px;
 }
-
-.stackable.menu {
-    margin-bottom: 0px;
+.ui.stackable.menu {
+    margin: 0;
 }
 
-.glide__slide img {
+/* Nav */
+#nav,
+#nav .item {
+    padding: 0;
+}
+#nav img {
+    height: 100px;
+    width: 75px;
+}
+#nav .right .item {
+    padding: 10px;
+}
+
+/* Carousel */
+#glide {
+    top: -15px;
+}
+#glide .glide__slide img {
     width: 100%;
 }
 
