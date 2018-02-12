@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
 		<link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/glidejs/dist/css/glide.core.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/glidejs/dist/css/glide.theme.css">
@@ -10,7 +12,7 @@
 	</head>
 
 	<body>
-		<div id="nav" class="ui stackable menu">
+		<div id="nav" class="ui top fixed secondary pointing menu">
       <div class="item">
         <img src="images/logo.png">
       </div>
@@ -30,9 +32,9 @@
 
       <div class="glide__wrapper">
         <ul class="glide__track">
-          <li class="glide__slide"><img src="images/large_placeholder.jpg"></li>
-          <li class="glide__slide"><img src="images/large_placeholder.jpg"></li>
-          <li class="glide__slide"><img src="images/large_placeholder.jpg"></li>
+          <li class="glide__slide"><img src="images/truck.jpg"></li>
+          <li class="glide__slide"><img src="images/phoenix.jpg"></li>
+          <li class="glide__slide"><img src="images/truck_with_chefs.jpg"></li>
         </ul>
       </div>
 
@@ -70,33 +72,21 @@
         <div class="column">
           <h1>Pork Dumplings</h1>
           <p>Your choice of steamed or pan fried</p>
-
-          <br>
-          <h3 class="price">$3.99</h3>
         </div>
 
         <div class="column">
           <h1>Pork Belly Bao</h1>
           <p>Perfectly cooked pork belly wrapped in a warm, soft bun</p>
-
-          <br>
-          <h3 class="price">$5.99</h3>
         </div>
 
         <div class="column">
           <h1>Dragon Wings</h1>
           <p>Six fried chicken wings with your choice of sauce</p>
-
-          <br>
-          <h3 class="price">$5.99</h3>
         </div>
 
         <div class="column">
           <h1>Kalua Pork</h1>
           <p>Slow cooked, seasoned pork served over rice. A Hawaiian tradition</p>
-
-          <br>
-          <h3 class="price">$8.99</h3>
         </div>
       </div>
 
@@ -111,44 +101,32 @@
 
       <h1>Contact Us</h1>
 
-      <p>To see where we'll be located today check out our Twitter. Use the contact form below for any questions or comments you have and we'll get back to you.</p>
+      <p>Use the contact form below for any questions or comments you have and we'll get back to you.</p>
 
-      <div class="ui stackable two column center aligned grid">
-        <div class="column">
-          <a class="twitter-timeline" data-lang="en" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a>
+      <form class="ui form" method="POST" action="https://formspree.io/cwilliams@rmn.com">
+        <div class="field">
+          <label>Name</label>
+          <input placeholder="First Name" name="name" type="text">
         </div>
 
-        <div class="column">
-          <form class="ui form" method="POST" action="https://formspree.io/cwilliams@rmn.com">
-            <div class="field">
-              <label>Name</label>
-              <input placeholder="First Name" name="name" type="text">
-            </div>
-
-            <div class="field">
-              <label>Email Address</label>
-              <input placeholder="Email Address" name="email address" type="text">
-            </div>
-
-            <div class="field">
-              <label>Questions and Comments</label>
-              <textarea placeholder="Your questions and comments here." name="questions" type="text"></textarea>
-            </div>
-
-            <input type="submit" value="Send" class="ui red button">
-          </form>
+        <div class="field">
+          <label>Email Address</label>
+          <input placeholder="Email Address" name="email address" type="text">
         </div>
-      </div>
+
+        <div class="field">
+          <label>Questions and Comments</label>
+          <textarea placeholder="Your questions and comments here." name="questions" type="text"></textarea>
+        </div>
+
+        <input type="submit" value="Send" class="ui red button">
+      </form>
     </div>
     <!-- Footer -->
     <footer class="social" id="footer">
       <a href="https://www.facebook.com/bonzaiboyz/" target="_blank"><i class="facebook icon"></i></a>
       <a href="https://www.instagram.com/bonzaiboyz/" target="_blank"><i class="instagram icon"></i></a>
       <a href="https://www.twitter.com" target="_blank"><i class="twitter square icon"></i></a>
-
-      <br>
-      <br>
-      <p>Built with <i class="heart icon"></i>in Phoenix, AZ</p>
     </footer>
 
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

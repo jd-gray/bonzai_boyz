@@ -24,17 +24,15 @@
     top: -15px;
 }
 #glide .glide__slide img {
+    height: auto;
     width: 100%;
 }
+/*.glide__slide img {*/
+    /*height: 100%;*/
+    /*max-width: 100%;*/
+/*}*/
 
 /* Menu/Contact */
-#menu .price {
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-}
 #catering {
     padding-top: 20px;
 }
@@ -52,7 +50,4 @@
 }
 #footer p {
     color: gray;
-}
-#footer i.heart {
-    color: darkred;
 }
