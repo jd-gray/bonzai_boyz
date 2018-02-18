@@ -6,6 +6,8 @@ $(document).on('click', 'a[href^="#"]', function (event) {
   }, 500);
 });
 
-$("#glide").glide({
-  type: "carousel"
+$('.food-gallery').masonry({
+  // options...
+  itemSelector: '.grid-item',
+  fitWidth: true
 });

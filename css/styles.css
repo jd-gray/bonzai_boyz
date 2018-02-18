@@ -7,34 +7,39 @@
 }
 
 /* Nav */
-#nav,
-#nav .item {
-    padding: 0;
-}
-#nav img {
-    height: 100px;
-    width: 75px;
-}
-#nav .right .item {
-    padding: 10px;
+#nav {
+  margin-bottom: 0;
 }
 
-/* Carousel */
-#glide {
-    top: -15px;
+/* Main */
+#main {
+  max-height: 650px;
+  padding: 0;
 }
-#glide .glide__slide img {
-    height: auto;
-    width: 100%;
-}
-/*.glide__slide img {*/
-    /*height: 100%;*/
-    /*max-width: 100%;*/
-/*}*/
 
-/* Menu/Contact */
+/* Menu */
 #catering {
     padding-top: 20px;
+}
+
+/* Food */
+.food-gallery {
+  margin: 0 auto;
+}
+.grid-item {
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+.grid-item img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Contact */
+#contact form {
+  margin: 0 auto;
+  width: 50%;
 }
 
 /* Footer */
