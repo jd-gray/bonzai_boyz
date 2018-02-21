@@ -1,10 +1,10 @@
 .ui.segment {
-    border: 0;
-    margin: 0;
-    padding: 20px;
+  border: 0;
+  margin: 0;
+  padding: 20px;
 }
 .ui.stackable.menu {
-    margin: 0;
+  margin: 0;
 }
 
 /* Nav */
@@ -36,7 +36,7 @@
 
 /* Menu */
 #catering {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* Food */
@@ -94,17 +94,17 @@
 
 /* Footer */
 #footer {
-    background-color: black;
-    border-top: 2px solid black;
-    padding: 20px;
-    text-align: center;
+  background-color: black;
+  border-top: 2px solid black;
+  padding: 20px;
+  text-align: center;
 }
 #footer a {
-    color: gray;
-    font-size: 25px;
+  color: gray;
+  font-size: 25px;
 }
 #footer p {
-    color: gray;
+  color: gray;
 }
 
 @media (max-width: 760px) {
