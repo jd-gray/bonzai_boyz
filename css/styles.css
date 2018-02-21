@@ -1,28 +1,132 @@
-body {
-  background: #536976; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #536976, #292e49);
+.ui.segment {
+  border: 0;
+  margin: 0;
+  padding: 20px;
+}
+.ui.stackable.menu {
+  margin: 0;
 }
 
-.coming-soon {
-    position: relative;
-    top: 25%;
-    text-align: center;
+/* Nav */
+#nav {
+  border-bottom: 0;
+  height: 100px;
+  margin-bottom: 0;
+}
+#nav #logo {
+  background: white;
+  border-radius: 0 40% 40%;
+  height: 125px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 125px;
+  z-index: 1;
+}
+#nav .item {
+  font-size: 18px;
 }
 
-img {
-    height: 350px;
-    width: 350px;
+/* Main */
+#main {
+  max-height: 650px;
+  padding: 0;
 }
 
-.coming-soon h1 {
-    margin-top: 0px;
+/* Menu */
+#catering {
+  padding-top: 20px;
 }
 
-.social {
-    font-size: 35px;
+/* Food */
+#menu.ui.segment {
+  background: #ECECEC;
+  padding: 10px 0;
+}
+#menu h1 {
+  font-size: 36px;
+}
+#menu p {
+  font-size: 18px;
+}
+#menu button {
+  background: #6C7A89;
+  font-size: 18px;
+  padding: 20px;
+}
+#menu button,
+#menu i {
+  color: white;
+}
+.food-gallery {
+  margin: 0 auto;
+}
+.grid-item {
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+.grid-item img {
+  height: 100%;
+  width: 100%;
 }
 
-.social i {
-    color: black;
+/* About */
+#about h1 {
+  font-size: 36px;
+}
+#about p {
+  font-size: 18px;
+}
+
+/* Contact */
+#contact.ui.segment {
+  background: #EEEEEE;
+}
+#contact form {
+  margin: 0 auto;
+  width: 60%;
+}
+#contact label {
+  font-size: 16px;
+}
+
+/* Footer */
+#footer {
+  background-color: black;
+  border-top: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+#footer a {
+  color: gray;
+  font-size: 25px;
+}
+#footer p {
+  color: gray;
+}
+
+@media (max-width: 760px) {
+  #nav {
+    height: 75px;
+  }
+  #nav #logo {
+    display: none;
+  }
+  #nav .menu {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 650px) {
+  #menu.ui.segment {
+    padding: 10px;
+  }
+  .food-gallery {
+    display: none;
+  }
+
+  #contact form {
+    width: 80%;
+  }
 }

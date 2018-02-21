@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -7,20 +7,123 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<title>Bonzai Boyz</title>
+
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
 	</head>
 
 	<body>
-    <div class="coming-soon">
-      <img src="images/logo.png">
-
-      <h1>Coming Soon</h1>
-
-      <div class="social">
-        <a href="https://www.facebook.com/bonzaiboyz/" target="_blank"><i class="facebook icon"></i></a>
-        <a href="https://www.instagram.com/bonzaiboyz/" target="_blank"><i class="instagram icon"></i></a>
+    <!-- Nav -->
+		<div id="nav" class="ui top secondary pointing menu">
+      <img id="logo" src="images/logo.png">
+      <div class="right menu">
+        <a href="#menu" class="item">Menu</a>
+        <a href="#about" class="item">About</a>
+        <a href="#contact" class="item">Contact</a>
       </div>
+		</div>
+
+    <!-- Main Photo -->
+    <div id="main" class="ui center aligned segment">
+      <img class="ui fluid image" src="images/truck_with_chefs.png">
     </div>
 
+    <!-- Menu -->
+    <div id="menu" class="ui center aligned segment">
+      <h1>Our Food</h1>
+
+      <p>Our mission is to share the goodness and variety of Asian Fusion cuisine to the local Phoenix community</p>
+
+      <div class="food-gallery">
+        <div class="grid-item">
+          <img src="images/food1.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food2.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food3.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food4.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food5.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food6.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food7.jpg">
+        </div>
+        <div class="grid-item">
+          <img src="images/food8.jpg">
+        </div>
+      </div>
+
+      <br>
+      <a href="/menu.html" target="_blank"><button class="ui button"><i class="eye icon"></i>View Catering Menu</button></a>
+
+      <div id="catering" name="catering">
+        <h2 class="ui center aligned">Please <a href="#contact">contact</a> us for all your catering needs!</h2>
+      </div>
+      <br>
+    </div>
+
+    <!-- About -->
+		<div id="about" class="ui center aligned segment">
+			<h1 class="ui center aligned header">About Us</h1>
+
+			<div class="ui stackable two column center aligned grid">
+			  <div class="column">
+			  	<img class="ui medium circular centered image" src="images/chef1.jpg">
+
+          <br>
+          <h2>Chef Jon Hing</h2>
+			  	<p>As a native Arizonan, Chef Jon has grown up and been inspired by food all of his life. Some of his fondest memories revolve around helping to cook dinners with his mom and grandma and all the excitement around  being apart of his aunt’s Chinese restaurant. Jon was continually amazed by the transformation of ingredients into delicious dishes, expanding his exploration into all different types of cuisines.</p>
+			  </div>
+
+			  <div class="column">
+			  	<img class="ui medium circular centered image" src="images/chef2.jpg">
+
+          <br>
+          <h2>Chef Leong Yam</h2>
+			  	<p>Originally from Malaysia, Chef Leong has spent most of his childhood in Arizona. Gaining his first experiences from his father, Leong knew he wanted to work with food. During his time in the Culinary Arts program at the Art Institute of Phoenix, Leong participated in cooking competitions as well cooking and serving in an active restaurant at the school. He also worked part-time at Starbucks and The Cheesecake Factory while in school.</p>
+			  </div>
+			</div>
+		</div>
+
+    <!-- Contact -->
+    <div id="contact" class="ui center aligned segment" name="contact">
+
+      <h1>Contact Us</h1>
+      <br>
+      <form class="ui form" method="POST" action="https://formspree.io/jared@jaredgray.us">
+        <div class="field">
+          <label>Email Address</label>
+          <input placeholder="Email Address" name="email" type="text">
+        </div>
+
+        <div class="field">
+          <label>Questions and Comments</label>
+          <textarea placeholder="Your questions and comments here." name="message" type="text"></textarea>
+        </div>
+
+        <input type="submit" value="Send" class="ui red button">
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="social" id="footer">
+      <a href="https://www.facebook.com/bonzaiboyz/" target="_blank"><i class="facebook icon"></i></a>
+      <a href="https://www.instagram.com/bonzaiboyz/" target="_blank"><i class="instagram icon"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="twitter square icon"></i></a>
+      <a href="https://www.yelp.com/biz/bonzai-boyz-mesa-2?osq=bonzai+boyz" target="_blank"><i class="yelp icon"></i></a>
+    </footer>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/masonry-layout/dist/masonry.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
 	</body>
 </html>
