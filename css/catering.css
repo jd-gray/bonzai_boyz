@@ -1,0 +1,13 @@
+#catering p {
+  font-size: 20px;
+  margin: 5px;
+}
+
+@media (max-width: 760px) {
+  #nav {
+    height: 75px;
+  }
+  #nav #logo {
+    display: initial;
+  }
+}
