@@ -73,37 +73,6 @@
 }
 
 /*Patrick's hover tags*/
-/*.image-name #wings-text {
-position: relative;
-top: 100px;
-left: 0px;
-visibility: hidden;
-z-index: 1;
-}
-
-.image-name:hover #wings-text {
-  z-index: 1;
-  visibility: visible;
-}*/
-
-/*.tooltip {
-  position: relative;
-  display: inline-block;
-}
-.tooltip .image1-text {
-  visibility: hidden;
-  width: 220px;
-  background-color: black;
-  color: blue;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-}
-.tooltip:hover .image1-text {
-  visibility: visible;
-}*/
-
 .food-container {
   position: relative;
   width: 300px;
