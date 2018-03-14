@@ -1,29 +1,30 @@
-#catering p {
-  font-size: 20px;
-  margin: 5px;
-  }
-
-@media (max-width: 760px) {
-  #nav {
-    height: 75px;
-  }
-  #nav #logo {
-    display: initial;
-  }
-}
-
 #catering h1 {
 	font-family: impact;
 	font-variant: small-caps;
 	text-shadow: #EDEDED 5px 3px 0;
 	font-size: 50px;
-  	font-weight: 200;
-  	letter-spacing: 3px;
-  	line-height: 1;
+	font-weight: 200;
+	letter-spacing: 3px;
+	line-height: 1;
 }
+
 #catering h2 {
 	font-size: 30px;
 	font-variant: small-caps;
 	text-shadow: #FFFFFF 3px 2px 0;
 	background-color: #ECECEC;
+}
+
+#catering p {
+	font-size: 20px;
+	margin: 5px;
+}
+
+@media (max-width: 760px) {
+	#nav {
+		height: 75px;
+	}
+	#nav #logo {
+		display: initial;
+	}
 }
