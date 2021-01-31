@@ -114,6 +114,9 @@
 #about p {
   font-size: 18px;
 }
+#about img {
+  min-height: 450px;
+}
 
 /* Contact */
 #contact.ui.segment {
