@@ -71,6 +71,9 @@
   height: 100%;
   width: 100%;
 }
+#menu #logo2 {
+  margin-top: -75px;
+}
 
 /*Patrick's hover tags*/
 .food-container {
@@ -132,17 +135,20 @@
 
 /* Footer */
 #footer {
-  background-color: black;
   border-top: 2px solid black;
-  padding: 20px;
-  text-align: center;
+  padding-top: 20px;
+}
+#footer .stackable {
+  margin: 0 auto;
+  width: 450px;
 }
 #footer a {
-  color: gray;
-  font-size: 25px;
+  color: black;
+  font-size: 30px;
 }
 #footer p {
-  color: gray;
+  color: black;
+  font-size: 22px;
 }
 
 @media (max-width: 760px) {
